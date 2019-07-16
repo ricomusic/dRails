@@ -2,6 +2,7 @@
 
 import Foundation
 import SPMUtility
+import TrafikverketAPI
 
 do {
     let parser = ArgumentParser(usage: "<origin> <destination> [options]",

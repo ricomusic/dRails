@@ -27,6 +27,15 @@
           "revision": "8656a25cb906c1896339f950ac960ee1b4fe8034",
           "version": "0.4.0"
         }
+      },
+      {
+        "package": "TrafikverketAPI",
+        "repositoryURL": "/Users/ricardo.gonzalez/Kod/Personal/TrafikverketAPI",
+        "state": {
+          "branch": null,
+          "revision": "139540118869dfcb4a3c3e102260b98221876e0c",
+          "version": "1.0.7"
+        }
       }
     ]
   },

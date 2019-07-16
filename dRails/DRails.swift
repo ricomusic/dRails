@@ -2,6 +2,7 @@
 
 import Foundation
 import Persistancy
+import TrafikverketAPI
 
 struct DRails {
     let group = DispatchGroup()

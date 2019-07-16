@@ -2,6 +2,7 @@
 
 import Foundation
 import Persistancy
+import TrafikverketAPI
 
 extension TrainAnnouncement {
     func pretty(_ stations: [String: TrainStation],

@@ -8,13 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		D43FA99622D0C8270029F529 /* Persistancy in Frameworks */ = {isa = PBXBuildFile; productRef = D43FA99522D0C8270029F529 /* Persistancy */; };
-		D43FA99A22D0C8F70029F529 /* TrafikverketModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43FA99922D0C8F70029F529 /* TrafikverketModel.swift */; };
-		D43FA99C22D0C91B0029F529 /* Trafikverket.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43FA99B22D0C91B0029F529 /* Trafikverket.swift */; };
-		D43FA9A022D0CA010029F529 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43FA99F22D0CA010029F529 /* APIError.swift */; };
 		D43FA9A222D0CE8E0029F529 /* TrafikverketModel+Pretty.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43FA9A122D0CE8E0029F529 /* TrafikverketModel+Pretty.swift */; };
 		D43FA9A422D1D3CB0029F529 /* DRails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43FA9A322D1D3CB0029F529 /* DRails.swift */; };
 		D43FA9A722D1D8780029F529 /* SPMUtility in Frameworks */ = {isa = PBXBuildFile; productRef = D43FA9A622D1D8780029F529 /* SPMUtility */; };
 		D4A738DA22D0B4D9002F7BD6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A738D922D0B4D9002F7BD6 /* main.swift */; };
+		D4ABD9C322DE59470030952F /* TrafikverketAPI in Frameworks */ = {isa = PBXBuildFile; productRef = D4ABD9C222DE59470030952F /* TrafikverketAPI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,9 +28,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		D43FA99922D0C8F70029F529 /* TrafikverketModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrafikverketModel.swift; sourceTree = "<group>"; };
-		D43FA99B22D0C91B0029F529 /* Trafikverket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trafikverket.swift; sourceTree = "<group>"; };
-		D43FA99F22D0CA010029F529 /* APIError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
 		D43FA9A122D0CE8E0029F529 /* TrafikverketModel+Pretty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TrafikverketModel+Pretty.swift"; sourceTree = "<group>"; };
 		D43FA9A322D1D3CB0029F529 /* DRails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DRails.swift; sourceTree = "<group>"; };
 		D4A738D622D0B4D9002F7BD6 /* dRails */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = dRails; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4ABD9C322DE59470030952F /* TrafikverketAPI in Frameworks */,
 				D43FA9A722D1D8780029F529 /* SPMUtility in Frameworks */,
 				D43FA99622D0C8270029F529 /* Persistancy in Frameworks */,
 			);
@@ -71,9 +67,6 @@
 		D4A738D822D0B4D9002F7BD6 /* dRails */ = {
 			isa = PBXGroup;
 			children = (
-				D43FA99F22D0CA010029F529 /* APIError.swift */,
-				D43FA99B22D0C91B0029F529 /* Trafikverket.swift */,
-				D43FA99922D0C8F70029F529 /* TrafikverketModel.swift */,
 				D43FA9A122D0CE8E0029F529 /* TrafikverketModel+Pretty.swift */,
 				D43FA9A322D1D3CB0029F529 /* DRails.swift */,
 				D4A738D922D0B4D9002F7BD6 /* main.swift */,
@@ -101,6 +94,7 @@
 			packageProductDependencies = (
 				D43FA99522D0C8270029F529 /* Persistancy */,
 				D43FA9A622D1D8780029F529 /* SPMUtility */,
+				D4ABD9C222DE59470030952F /* TrafikverketAPI */,
 			);
 			productName = dRails;
 			productReference = D4A738D622D0B4D9002F7BD6 /* dRails */;
@@ -133,6 +127,7 @@
 			packageReferences = (
 				D43FA99422D0C8270029F529 /* XCRemoteSwiftPackageReference "Persistancy" */,
 				D43FA9A522D1D8780029F529 /* XCRemoteSwiftPackageReference "swift-package-manager" */,
+				D4ABD9C122DE59470030952F /* XCRemoteSwiftPackageReference "TrafikverketAPI" */,
 			);
 			productRefGroup = D4A738D722D0B4D9002F7BD6 /* Products */;
 			projectDirPath = "";
@@ -171,10 +166,7 @@
 			files = (
 				D43FA9A422D1D3CB0029F529 /* DRails.swift in Sources */,
 				D4A738DA22D0B4D9002F7BD6 /* main.swift in Sources */,
-				D43FA9A022D0CA010029F529 /* APIError.swift in Sources */,
-				D43FA99A22D0C8F70029F529 /* TrafikverketModel.swift in Sources */,
 				D43FA9A222D0CE8E0029F529 /* TrafikverketModel+Pretty.swift in Sources */,
-				D43FA99C22D0C91B0029F529 /* Trafikverket.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +348,14 @@
 				minimumVersion = 0.4.0;
 			};
 		};
+		D4ABD9C122DE59470030952F /* XCRemoteSwiftPackageReference "TrafikverketAPI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "file:///Users/ricardo.gonzalez/Kod/Personal/TrafikverketAPI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -368,6 +368,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = D43FA9A522D1D8780029F529 /* XCRemoteSwiftPackageReference "swift-package-manager" */;
 			productName = SPMUtility;
+		};
+		D4ABD9C222DE59470030952F /* TrafikverketAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D4ABD9C122DE59470030952F /* XCRemoteSwiftPackageReference "TrafikverketAPI" */;
+			productName = TrafikverketAPI;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
